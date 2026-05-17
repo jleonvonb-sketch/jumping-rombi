@@ -17,9 +17,10 @@ Haz clic en Install Now y espera a que termine.
 🐧 Linux (Ubuntu / Debian / derivados)
 Abre una terminal (Ctrl + Alt + T) y ejecuta los siguientes comandos para actualizar el sistema e instalar Python junto con su gestor de paquetes:
 
-Bash
 sudo apt update
 sudo apt install python3 python3-pip curl -y
+
+
 🍏 macOS
 Abre la terminal (búscala en el Spotlight con Cmd + Espacio).
 
@@ -35,12 +36,11 @@ Una vez que tengas Python instalado, abre la Terminal (en Linux/macOS) o el Sím
 En Windows (PowerShell)
 Windows no siempre trae curl configurado de la misma forma para guardar archivos, por lo que puedes usar este comando nativo en PowerShell para descargarlo directamente en tu carpeta de Descargas y ejecutarlo:
 
-PowerShell
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/jleonvonb-sketch/jumping-rombi/refs/heads/main/install.py" -OutFile "$HOME\Downloads\install.py"; python "$HOME\Downloads\install.py"
+
 En Linux y macOS (Terminal)
 Usa curl para descargar el script en tu carpeta de descargas e iniciarlo de inmediato con Python:
 
-Bash
 curl -L "https://raw.githubusercontent.com/jleonvonb-sketch/jumping-rombi/refs/heads/main/install.py" -o ~/Downloads/install.py && python3 ~/Downloads/install.py
 ¿Qué hace este script de instalación?
 Detecta automáticamente tu sistema operativo.
