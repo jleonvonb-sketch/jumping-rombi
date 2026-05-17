@@ -1,3 +1,4 @@
+#INSTRUCCIONES DE INSTALACION
 🎮 Guía de Instalación - Jumping Rombi
 Para poder jugar, necesitas tener Python instalado en tu computadora y luego ejecutar nuestro script automatizado, que se encargará de configurar todo (incluyendo la librería Pygame y el juego) por ti.
 
